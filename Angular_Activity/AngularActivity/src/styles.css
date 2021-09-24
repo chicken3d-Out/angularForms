@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+html, body {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.main {
+    display: grid;
+    grid-auto-rows: 100vh;
+}
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(59, 156, 59);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: rgb(22, 22, 22);
+}
+.box1 hr {
+    background-color: rgb(59, 156, 59);
+}
+.box2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(59, 156, 59);
+
+    background-color: rgb(22, 22, 22);
+}
+.image-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-holder img {
+    box-shadow: 2px 2px 2px rgb(59, 156, 59);
+}
