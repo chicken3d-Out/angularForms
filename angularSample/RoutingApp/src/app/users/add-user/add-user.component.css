@@ -1,0 +1,20 @@
+.center {
+    display: grid;
+    justify-content: center;
+
+    padding-top:50px;
+}
+.header {
+    background-color: rgb(20, 115, 173);
+    width: 800px;
+    color: white;
+}
+.card-container {
+    max-width: 800px;
+    background-color: #eee;
+}
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(2, 1fr);
+}

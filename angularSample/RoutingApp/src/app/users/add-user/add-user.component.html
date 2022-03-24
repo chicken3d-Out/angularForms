@@ -1,0 +1,75 @@
+<div class="center">
+    <mat-card class="header"><h2>Add User</h2></mat-card>
+    <mat-card class="card-container">
+    <div class="container">
+        <div class="form-container">
+            <div class="form-group">
+                <label for="firstname">First Name</label>
+                <div class="field">
+                    <mat-form-field>
+                        <mat-label>First Name</mat-label>
+                        <input matInput class="ng-untouched ng-pristine ng-valid" id="firstname" required
+                        name="firstname">
+                    </mat-form-field>
+                </div> 
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last Name</label>
+                <div class="field">
+                    <mat-form-field>
+                        <mat-label>Last Name</mat-label>
+                        <input matInput class="ng-untouched ng-pristine ng-valid" id="lastname" required
+                        name="lastname">
+                    </mat-form-field>
+                </div> 
+            </div>
+            <div class="form-group">
+                <label for="middlename">Middle Name</label>
+                <div class="field">
+                    <mat-form-field>
+                        <mat-label>Middle Name</mat-label>
+                        <input matInput class="ng-untouched ng-pristine ng-valid" id="middlename" required
+                        name="middlename">
+                    </mat-form-field>
+                </div> 
+            </div>
+        </div>
+        <div class="form-container">
+            <div class="form-group">
+                <label for="address">Address</label>
+                <div class="field">
+                    <mat-form-field>
+                        <mat-label>Address</mat-label>
+                        <textarea matInput name="address"></textarea>
+                    </mat-form-field>
+                </div> 
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <div class="field">
+                    <mat-form-field>
+                        <mat-label>Email</mat-label>
+                        <input matInput class="ng-untouched ng-pristine ng-valid" id="email" required
+                        name="email" type="email">
+                    </mat-form-field>
+                </div> 
+            </div>
+            <div class="form-group">
+                <label for="number">Number</label>
+                <div class="field">
+                    <mat-form-field>
+                        <mat-label>Number</mat-label>
+                        <input type="number" matInput class="ng-untouched ng-pristine ng-valid" id="number" required
+                        name="number" maxlength="5" placeholder="Ex. 09123456789">
+                    </mat-form-field>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <button routerLink='/user-list' mat-button color="primary" mat-raised-button>Register</button>
+    </mat-card>
+</div>
+
+
+
+
